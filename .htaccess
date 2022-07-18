@@ -1,0 +1,57 @@
+RewriteEngine On
+# sidebar
+
+RewriteRule ^index?$ index.php
+RewriteRule ^1024?$ dashboard.php
+RewriteRule ^8548?$ /user/dashboard1.php
+RewriteRule ^5245?$ vehicle-category.php
+RewriteRule ^7488?$ manage-vehicles.php
+RewriteRule ^4526?$ in-vehicles.php
+RewriteRule ^7412?$ out-vehicles.php
+RewriteRule ^1422?$ reports.php
+RewriteRule ^6589?$ total-income.php
+RewriteRule ^5268?$ sub-user.php
+RewriteRule ^8569?$ setting.php
+RewriteRule ^7625?$ req_user.php
+RewriteRule ^5689?$ logout.php
+
+#forget pass
+# RewriteRule ^8569?$ forgot-password.php
+# vehicle-category
+
+RewriteRule ^74589?$ add-category.php
+
+
+# reports
+
+RewriteRule ^85696?$ generate-reports.php
+
+
+# setting
+
+RewriteRule ^52689?$ change-password.php
+RewriteRule ^57415?$ module.php
+RewriteRule ^85962?$ sub-user-his.php
+# RewriteRule ^deleted-sub-user?$ deleted-sub-user.php
+RewriteRule ^10245?$ deleted-user.php
+
+# set ting/module
+
+RewriteRule ^561526?$ add-module.php
+RewriteRule ^859621?$ update-module.php
+RewriteRule ^201526?$ delete-module.php
+RewriteRule ^748512?$ sub-vehicle-cat.php
+
+#subvehicle
+
+RewriteRule ^5021?$ add-sub-vehicle.php
+RewriteRule ^5022?$ update-sub-veh.php
+RewriteRule ^5023?$ delete-sub-cat.php
+
+
+
+# RewriteRule ^update/([0-90]+) update-incomingdetail.php?updateid=47
+# RewriteRule ^update/([0-9a-zA-Z_-]+) update-incomingdetail.php?updateid=$1 [NC,L]
+# RewriteRule ^edit/([0-9a-zA-Z_-]+) edit.php?uid=$1 [NC,L]
+
+# RewriteRule ^([^\.]+) $1.php   [NC,L]

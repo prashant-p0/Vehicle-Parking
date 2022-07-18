@@ -1,0 +1,15 @@
+RewriteEngine On
+
+#sidebar
+RewriteRule ^8548?$ dashboard1.php
+RewriteRule ^4516?$ preview.php
+RewriteRule ^1212?$ module.php
+RewriteRule ^2325?$ vehicle-history.php
+RewriteRule ^2125?$ contact.php
+RewriteRule ^2315?$ setting1.php
+RewriteRule ^5024?$ signup1.php
+# RewriteRule ^8569?$ forgot-password.php
+
+
+
+RewriteRule ^25689?$ change-password1.php
